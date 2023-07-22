@@ -1,7 +1,7 @@
 {
  "name": "BeFit",
  "description": "Тренируй свой разум и тело",
- "start_url": ".",
+ "start_url": "/",
  "lang": "ru",
  "display": "standalone",
  "icons": [
