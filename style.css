@@ -1,0 +1,333 @@
+body {
+	background: #d8eaf2;
+}
+
+
+table{
+	list-style: none;
+	position: absolute;
+	top: 30px;
+	right: 40px;
+	font-size: 2rem;
+	border-spacing: 60px 0px;
+}	
+а {
+      text-decoration: none;
+    }
+	
+.button1{
+	background-color: #5CD2E5;
+	position: absolute;
+    top: 450px;
+    left: 110px;
+	padding: 15px 32px;
+	border: none;
+	color: #000;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 30px;
+	border-radius: 16px;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.button1:hover {
+    background-color: #5CD2E5;
+    color: #fff;
+}
+
+.button2{
+	background-color: white;
+	position: absolute; 
+    top: 550px;
+    left: 110px;
+	padding: 15px 43px;
+	border: 2px solid #fff;
+	color: #000;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 30px;
+	border-radius: 16px;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.button2:hover {
+	border: 3px solid #5CD2E5;
+	color: #5CD2E5;
+}
+
+h1 {
+    background: #5CD2E5;
+    color: black;
+    padding: 2px;
+	font-family: Arial;
+	font-size: 2.5rem;
+	font-weight: 500;
+   }
+
+.card {
+  display: inline-block;
+  margin: 10px;
+  border: 1px solid lightgray;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  border-radius: 16px;
+  font-family: Arial;
+  line-height: 0.3em;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 88px;
+  margin-right: 88px;
+}
+
+.card img {
+  width: 300px;
+  height: 300px;
+  border-radius: 16px;
+}
+
+
+h3 {
+	font-size: 2rem;
+	color: #5CD2E5;
+	text-shadow: 1px 1px 2px black;
+	text-align: center;
+}
+
+h4 {
+	font-size: 1rem;
+	text-align: center;
+	color: #919191;
+}
+
+.price {
+	text-decoration: line-through red;
+	font-size: 1.5rem;
+	text-align: center;
+	font-family: Arial;
+}
+
+.saleprice {
+	font-size: 1.8rem;
+	text-align: center;
+	font-family: Arial;
+}
+
+.contact-btn {
+	background-color: white;
+	position: absolute; 
+	padding: 10px 20px;
+	border: 2px solid black;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	border-radius: 16px;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+	cursor: pointer;
+	margin-left: 75px;
+}
+
+.contact-btn:hover {
+	border: 3px solid #5CD2E5;
+	color: #5CD2E5;
+}
+
+.white {
+	color: white;
+}
+
+#contact-modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #cff3ff;
+  color: black;
+  padding: 20px;
+  border-radius: 16px;
+  text-align: center;
+  border: 2px solid black;
+  z-index: 2;
+  box-shadow: 0 10px 15px rgba(0,0,0, .4);
+  height: 720px;
+  width: 720px;
+  
+}
+
+#contact-modal form input {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 240px;
+  width: 33%;
+
+}
+
+#contact-modal form button {
+  margin-top: 10px;
+}
+
+.hh {
+	font-size: 2rem;
+	color: black;
+	text-align: center;
+	font-family: Arial;
+	padding-top: 1px
+}
+
+.close {
+	border: none;
+	background: none;
+	opacity: 0.7;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	font-size: 2rem;
+}
+
+.close:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+.about {
+	font-size: 1.2rem;
+	color: #000;
+	font-family: Arial;
+	
+}
+
+.text {
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: inset 0 1px 5px rgba(0,0,0,0.2);
+    border: 1px solid #ccc;
+}
+.tel{
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: inset 0 1px 5px rgba(0,0,0,0.2);
+    border: 1px solid #ccc;	
+}
+.email{
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: inset 0 1px 5px rgba(0,0,0,0.2);
+    border: 1px solid #ccc;
+}
+
+.select{
+	    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: inset 0 1px 5px rgba(0,0,0,0.2);
+    border: 1px solid #ccc;
+
+}
+
+.ok{
+	font-family: Arial;
+	text-align: center;
+	font-size: 30px;
+	background-color: #5CD2E5;
+	color: #000;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.sogl{
+	font-size: 1.2rem;
+	font-family: Arial;
+}
+
+.podpis{
+	font-size: 1.2rem;
+	font-family: Arial;
+}
+
+.checkbox{
+	width: 20px;
+	height: 20px;
+}
+
+.methodname {
+	font-family: Arial;
+	color: black;
+	font-size: 2rem;
+}
+
+.method{
+	font-family: Arial;
+	color: black;
+	font-size: 1.5rem;
+	margin-left: 250px;
+	margin-right: 250px;
+}
+
+.ris{
+	width: 33%;
+	margin-left: 500px;
+	box-shadow: 0 10px 15px rgba(0,0,0, .4);
+	border-radius: 10px;
+}
+
+.ris4{
+	width: 33%;
+	margin-left: 500px;
+	box-shadow: 0 10px 15px rgba(0,0,0, .4);
+	border-radius: 10px;
+	margin-bottom: 100px;
+}
+
+.onas {
+  background-image: url(images/onas.png);
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+  color: #fff;
+  text-align: center;
+}
+
+.qqq{
+	text-align: center;
+	color: white;
+    padding: 2px;
+	font-family: Arial;
+	font-size: 2.5rem;
+	font-weight: 500;
+	
+}
+
+.ppp{
+	font-family: Arial;
+	font-size: 1.8rem;
+	text-align: center;
+	font-weight: 400;
+}
+
+.line{
+	border-bottom: 1px solid #f00;
+}
+
+.qqq1{
+	text-align: center;
+	color: black;
+    padding: 2px;
+	font-family: Arial;
+	font-size: 2.5rem;
+	font-weight: 500;
+	border-spacing: 160px 0px;
+}
+
+.contacts{
+		border-spacing: 160px 0px;
+		font-family: Arial;
+		font-size: 2.7rem;
+}

@@ -1,0 +1,274 @@
+<html>
+<head>
+<title>
+BeFit
+</title>
+<script src="app.js"></script>
+<link rel="stylesheet" href="style.css">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+<table>
+	<tr>
+	<th><a href = "#programms" style="color: #000000; text-decoration: none; font-family: Arial" onclick="slowScroll('#programms')">Программы</a></th>
+	<th><a href = "#onas" style="color: #000000; text-decoration: none; font-family: Arial" onclick="slowScroll('#onas')">О нас</a></th>
+	<th><a href = "#contacts" style="color: #000000; text-decoration: none; font-family: Arial" onclick="slowScroll('#contacts')">Контакты</a></th>
+	</tr>
+</table>
+
+<button class="button button1" name="Программы" value="Программы">
+<a href = "#programms" style="color: #000000; text-decoration: none; font-family: Arial" onclick="slowScroll('#programms')">Программы</a></th>
+</button>
+
+<button href="#methodika" class="button button2">
+<a href = "#metodika" style="color: #000000; text-decoration: none; font-family: Arial" onclick="slowScroll('#metodika')">Методика</a></th>
+</button>
+
+<img src="images/fon11.png" alt="Изображение недоступно" width="100%">
+
+<h1 align=center>
+6 причин заниматься спортом
+</h1>
+
+<div class="prichini">
+<img src="images/мышцы.png" alt="Изображение недоступно" width="33%">
+<img src="images/сон.png" alt="Изображение недоступно" width="33%">
+<img src="images/мозг.png" alt="Изображение недоступно" width="33%">
+<img src="images/стресс.png" alt="Изображение недоступно" width="33%">
+<img src="images/внешнийвид.png" alt="Изображение недоступно" width="33%">
+<img src="images/привычки.png" alt="Изображение недоступно" width="33%">
+</div>
+
+<!-- Карточки товаров -->
+<div id="programms">
+<h1 align=center>
+Программы тренировок
+</h1>
+<div class="card">
+	<img src="images/отжимания.png" alt="T-RX">
+    <h3 align=center>Отжимания</h3>
+	<!-- тут типо уровень сложности -->
+	<h4 align=center>Начинающий</h4>
+	<!-- цена -->
+    <p class="price" align=center>499 ₽</p>
+	<!-- цена со скидкой -->
+	<p class="saleprice" align=center>Бесплатно</p>
+	<!-- кнопка подробнее -->
+	<button class="contact-btn" align=center>Подробнее</button>
+	<p class="white">a<br>a<br>a<br>a<br>a</p>
+</div>
+
+<div class="card">
+	<img src="images/trx.png" alt="T-RX">
+    <h3 align=center>T-RX</h3>
+	<!-- тут типо уровень сложности -->
+	<h4 align=center>Начинающий</h4>
+	<!-- цена -->
+    <p class="price" align=center>799 ₽</p>
+	<!-- цена со скидкой -->
+	<p class="saleprice" align=center>399 ₽</p>
+	<!-- кнопка подробнее -->
+	<button class="contact-btn" align=center>Подробнее</button>
+	<p class="white">a<br>a<br>a<br>a<br>a</p>
+</div>
+
+<div class="card">
+	<img src="images/turnik.png" alt="Турник">
+    <h3 align=center>Турник</h3>
+	<!-- тут типо уровень сложности -->
+	<h4 align=center>Начинающий</h4>
+	<!-- цена -->
+    <p class="price" align=center>2 499 ₽</p>
+	<!-- цена со скидкой -->
+	<p class="saleprice" align=center>1 999 ₽</p>
+	<!-- кнопка подробнее -->
+	<button class="contact-btn" align=center>Подробнее</button>
+	<p class="white">a<br>a<br>a<br>a<br>a</p>
+</div>
+
+<div class="card">
+	<img src="images/ganteli.jpg" alt="Гантели">
+    <h3 align=center>Гантели</h3>
+	<!-- тут типо уровень сложности -->
+	<h4 align=center>Продвинутый</h4>
+	<!-- цена -->
+    <p class="price" align=center>2 999 ₽</p>
+	<!-- цена со скидкой -->
+	<p class="saleprice" align=center>2 349 ₽</p>
+	<!-- кнопка подробнее -->
+    <button class="contact-btn" align=center>Подробнее</button>
+	<p class="white">a<br>a<br>a<br>a<br>a</p></div>
+
+<div class="card">
+	<img src="images/shtanga.jpg" alt="Штанга">
+    <h3 align=center>Штанга</h3>
+	<!-- тут типо уровень сложности -->
+	<h4 align=center>Профессионал</h4>
+	<!-- цена -->
+    <p class="price" align=center>3 999 ₽</p>
+	<!-- цена со скидкой -->
+	<p class="saleprice" align=center>3 199 ₽</p>
+	<!-- кнопка подробнее -->
+    <button class="contact-btn" >Подробнее</button>
+	<p class="white">a<br>a<br>a<br>a<br>a</p></div>
+</div>
+
+<!-- Всплывающее окно -->
+<div id="contact-modal" class="modal">
+    <button class="close">X</button>
+    <p class="hh">Запись на программу</p>
+	<p class="about">Чтобы получить подробную информацию о программе тренировок, заполните небольшую анкету. Наши специалисты свяжутся с вами в ближайшее время и подберут программу именно для Вас.</p>
+    <form id="forma" action="functions.php" method="post">
+	<p class="podpis">ФИО</p>
+	<input class="text" type="text" name="name" maxlength="50" required>
+	<p class="podpis">Номер телефона</p>
+	<input class="tel" type="number" name="tel" required pattern="8[0-9]{10}">
+	<p class="podpis">Email</p>
+	<input class="email" type="email" name="email" maxlength="30" required>
+	<p class="podpis">Интересующая программа</p>
+	<select class="select" name="user_profile_color_1">
+  <option value="1">Отжимания</option>
+  <option value="2">T-RX</option>
+  <option value="3">Турник</option>
+  <option value="4">Гантели</option>
+  <option value="5">Штанга</option>
+	</select>
+	<p class="sogl">Я даю согласие на обработку персональных данных</p>
+	<input class="checkbox" type="checkbox" name="call" required>
+	<!--<input id="mess_send" class="ok" type="submit" name="send" value="Отправить">-->
+    <button class="ok" type="submit">Отправить</button>
+    </form>
+</div>
+
+<div id="metodika">
+<h1 align=center>
+Методика
+</h1>
+<p class="methodname" align=center>
+Фокусировка
+</p>
+<p class="method" align=center>
+Тренируйтесь с фокусировкой на мышечную группу. Представляйте и думайте о работе целевой мышцы, когда делаете упражнение. Не давайте уму блуждать и думать о постороннем.
+</p>
+<img class="ris" src="images/фокусировка.jpg" alt="Изображение недоступно">
+</div>
+
+<p class="methodname" align=center>
+Активация
+</p>
+<p class="method" align=center>
+Полная активация целевой мышцы сложна и требует много практики. Этот методика идет рука об руку с фокусировкой. Вовлекайте целевую мышцу в каждое повторение, чтобы обеспечить пиковое сокращение. Гипертрофический стиль тренировок нацелен на качество, а не на количество. Возможно, придётся корректировать положение тела и технику упражнения. Биомеханика людей отличается, поэтому одна техника не работает для всех. Практика это проверенный способ найти положение тела, при котором будет максимальное сокращение и активация мышцы.
+</p>
+<img class="ris" src="images/активация.jpg" alt="Изображение недоступно">
+</div>
+
+<p class="methodname" align=center>
+Суперсеты
+</p>
+<p class="method" align=center>
+Суперсеты это методика упражнений, при которой после завершения одного упражнения сразу следует начало другого без отдыха между ними. Работая в режиме суперсетов, вы увеличиваете объем нагрузки, без потери силы и мощности. Суперсеты помогут сжигать больше калорий во время тренировок, что выгодно для потери жира.
+</p>
+<img class="ris" src="images/суперсеты.jpg" alt="Изображение недоступно">
+</div>
+
+<p class="methodname" align=center>
+Периоды отдыха
+</p>
+<p class="method" align=center>
+Периоды отдыха нужны для восстановления тела перед следующим сетом. Отдых между сетами в тренировках на гипертрофию составляет 30 — 90 секунд. Выполняя суперсеты, отдых делается между сетами — кругами. Если захотите добавить интенсивности, то используйте легкую кардионагрузку или плиометрику в периоды отдыха. Это еще один способ увеличить расход калорий, но веса на тренажере ощутимо упадут.
+</p>
+<img class="ris" src="images/отдых.png" alt="Изображение недоступно">
+</div>
+
+<p class="methodname" align=center>
+Техника
+</p>
+<p class="method" align=center>
+Техника - это способ, которым выполняется упражнение. В тренинге на гипертрофию мышечных волокон держите технику под контролем. Важно не сколько килограмм вы поднимете, а то как поднимается вес.
+</p>
+<img class="ris4" src="images/техника.png" alt="Изображение недоступно">
+
+</div>
+
+<br>
+
+<div class="onas" id="onas">
+<p class="qqq" align=center>
+О нас
+</p>
+<p class="ppp">
+BeFit - компания, которая занимается созданием индивидуальных тренировочных программ для занятий в спортивном зале. Мы помогаем нашим клиентам достигать своих целей и получать максимальный результат от тренировок. Наша команда состоит из профессиональных тренеров, которые имеют богатый опыт в области спорта и фитнеса. Мы учитываем все особенности и потребности каждого клиента, чтобы создать оптимальную программу, которая будет соответствовать их уровню подготовки и целям. Мы предлагаем широкий спектр тренировок, включая кардио, силовые упражнения, функциональный тренинг и многое другое. Наша цель - помочь каждому клиенту стать лучшей версией себя!
+</p>
+</div>
+
+<div class="contacts" id="contacts">
+<p class="qqq1" align=center>
+Контакты</p>
+  <img src="images/почта.png" alt="Email" width="32" height="32">
+<a href="mailto:igor_kobelev@outlook.com">
+  <p style="display:inline-block;margin-left:8px;">Почта</p>
+</a>
+<br>
+  <img src="images/vk.png" alt="VK" width="32" height="32" align=center>
+<a href="https://vk.com/igorkobelev04">
+  <p style="display:inline-block;margin-left:8px;">Социальная сеть "ВКонтакте"</p>
+</a>
+<br>
+<img src="images/telegram.png" alt="Telegram" width="32" height="32">
+<a href="https://t.me/igor_kobelev">
+  <p style="display:inline-block;margin-left:8px;">Telegram</p>
+</a>
+<br>
+  <img src="images/телефон.png" alt="Phone" width="32" height="32">
+<a href="tel:+79999999911">
+  <p style="display:inline-block;margin-left:8px;">Номер телефона</p>
+</a>
+<br>
+</div>
+
+
+<script type="text/javascript"> 
+     function slowScroll(id) { 
+         var offset = 0;
+         $('html, body').animate({ 
+              scrollTop: $(id).offset().top - offset 
+         }, 1000);
+         return false; 
+     } 
+</script>
+
+<script>
+if ('serviceWorker' in navigator) {
+ window.addEventListener('load', function() {  
+   navigator.serviceWorker.register('/sw.js').then(
+     function(registration) {
+       // Registration was successful
+       console.log('ServiceWorker registration successful with scope: ', registration.scope); },
+     function(err) {
+       // registration failed :(
+       console.log('ServiceWorker registration failed: ', err);
+     });
+ });
+}
+</script>
+
+
+</body>
+</html>
